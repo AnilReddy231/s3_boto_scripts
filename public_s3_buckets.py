@@ -30,8 +30,6 @@ GROUPS = {
 def check_acl(acl):
     """
     Checks if the Access Control List is public.
-    :param acl: Acl instance that describes bucket's.
-    :return: Bucket's public indicator and dangerous grants parsed from acl instance.
     """
     public_grants = defaultdict()
     for grant in acl.grants:
