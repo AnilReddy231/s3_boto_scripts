@@ -1,4 +1,4 @@
-python -W ignore s3_objects_recovery_bcp.py -h
+```shell
 usage: s3_objects_recovery_bcp.py [-h] [-b BUCKET_NAME] [-k KEY_NAME]
                                   [-a AFTER_DATE] [-p PRIOR_DATE]
 
@@ -10,3 +10,4 @@ optional arguments:
    -k KEY_NAME, --key KEY_NAME            Key Name
   -a AFTER_DATE, --after AFTER_DATE       After Date
   -p PRIOR_DATE, --prior PRIOR_DATE       Prior Date
+```
